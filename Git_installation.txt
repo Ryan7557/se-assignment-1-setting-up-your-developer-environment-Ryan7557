@@ -1,0 +1,12 @@
+		  GIT Installation
+Downloading Git is easy in Windows because you only need to download and install Git in the system.
+Step 1: First, visit the official website of Git and download the correct version per the system requirements. (https://www.git-scm.com/download/win)
+
+                     
+
+Step 2: Once you download the setup, click and download Git in your system:
+
+                                    
+Step 3: After downloading Git, go to the Start Menu and open Git from it. Moreover, you can check the current version of Git by running the following command in the Command Prompt:
+git --version
+

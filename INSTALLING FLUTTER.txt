@@ -1,0 +1,31 @@
+INSTALLING FLUTTER ON 
+		   WINDOWS
+
+Follow the following steps to install Flutter on Windows:
+Step 1: Go to https://flutter.dev/ on the webpage. On the top menu bar, select Docs > Get Started > Install > Windows.
+ 
+ 
+Step 2: Check for the System Requirements. Then, you can begin the installation.
+ 
+Before proceeding further. Make sure you have the latest versions of Windows PowerShell and Git for Windows. If not installed.
+Step 3: Restart the system after installing Git on your windows. Once done, let’s get to the installation of Flutter Software development Kit (Flutter SDK). Click on the download link for the latest version (as of today)
+ 
+Flutter SDK is the tool that not only allows us to create flutter projects but also build those projects and transform them into native mobile applications.
+Once the zip file is downloaded, extract the ‘flutter’ folder (drag and drop) to any path/directory (the C: drive is most preferrable) of the system where you get the read and write access. 
+ 
+Now that your flutter folder is in the preferred directory (C: drive) open folder navigate to the bin file in the flutter folder (C:\flutter\bin).
+
+Step 4: Copy the path and Check and edit environment variables for global system access. For this, scroll down to ‘Update your path’. For this, go to Control Panel > System and Security > System > Advanced System Settings > Environment Variables…. A dialog box displaying a list of the available environment variables appears on your screen.
+ 
+Environment Variables are global system variables present at the root level, which aids in configuring various aspects of Windows. We will now add the flutter tool as an environment variable for direct access (instead of running the .bat executable), and unlock it on the entire PowerShell and Command Prompt of your system.
+
+To do this, glance through the following steps:
+•	Check for ‘Path’ variable under User Variables list. If not already present, create a new variable (‘New…’) and assign the ‘flutter\bin‘ directory as its value.
+•	Now double-click on the ‘Path’ variable and add a new entry by double-clicking on a column below. It should look something like this:
+•	In the path, copy the entire directory of flutter\bin folder and paste it. Click ‘Ok’ twice to complete the setup. Now, make sure that you have closed any existing Command Prompt/Windows PowerShell windows that are open.
+
+Now, check whether your flutter framework can be accessed globally. To do this, open any terminal (say Command Prompt) and type in ‘flutter‘ and see whether you get the same list of commands as you did get earlier from the .bat terminal. If yes, you have successfully completed setting up flutter on the root level in your system. If not, you might as well consider re-running the setup again.
+Step 5: Now, you have to analyze and check whether something is missing/has to be installed further. To do this, under the Command Prompt terminal, type in ‘Flutter Doctor‘ to check for other requirements.
+ 
+
+
